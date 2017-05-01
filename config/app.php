@@ -176,7 +176,8 @@ return [
         // events\Providers\BroadcastServiceProvider::class,
         events\Providers\EventServiceProvider::class,
         events\Providers\RouteServiceProvider::class,
-
+        ConsoleTVs\Charts\ChartsServiceProvider::class,
+        Kagga\Telco\TelcoServiceProvider::class
     ],
 
     /*
@@ -225,6 +226,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Charts' => ConsoleTVs\Charts\Facades\Charts::class,
+        'Telco' => Kagga\Telco\facades\Telco::class,
 
     ],
 
