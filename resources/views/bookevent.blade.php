@@ -160,25 +160,51 @@
                           <h4 class="info-text">Select Tents, Chairs &amp; Tables you desire</h4>
                           <div class="row">
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
 
                               <div class="form-group label-floating">
 																<div class="form-group">
-																	<label>Month</label>
-																	<select id="ms" multiple="multiple">
-																			<option value="1">January</option>
-																			<option value="2">February</option>
-																			<option value="3">March</option>
-																			<option value="4">April</option>
-																			<option value="5">May</option>
-																			<option value="6">June</option>
-																			<option value="7">July</option>
-																			<option value="8">August</option>
-																			<option value="9">September</option>
-																			<option value="10">October</option>
-																			<option value="11">November</option>
-																			<option value="12">December</option>
-																	</select>
+
+																	<table class="table table-striped table-bordered table-responsive">
+																		<thead>
+																			<tr>
+																				<th>Description</th>
+																				<th>Quantity</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+
+																			<tr>
+																				<td>100 seater Tent</td>
+																				<td>
+																					<input type="text" name="tent100_quantity" value="">
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td>50 seater Tent</td>
+																				<td>
+																					<input type="text" name="tent50_quantity" value="">
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td>Gazebo</td>
+																				<td>
+																					<input type="text" name="gazebo_quantity" value="">
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td>Decorated Chairs</td>
+																				<td>
+																					<input type="text" name="decorated_chairs" value="">
+																				</td>
+																			</tr>
+
+																		</tbody>
+																	</table>
+
 															</div>
 
                               </div>
@@ -187,7 +213,25 @@
                         </div>
                       </div>
 
-                      <div class="tab-pane" id="description">
+                      <div class="tab-pane" id="decor">
+                          <div class="row">
+                              <h4 class="info-text">Drop us a small description.</h4>
+                              <div class="col-sm-6 col-sm-offset-1">
+                            		<div class="form-group">
+                                      <label>Room description</label>
+                                      <textarea class="form-control" placeholder="" rows="6"></textarea>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                              	<div class="form-group">
+                                      <label class="control-label">Example</label>
+                                      <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+											<div class="tab-pane" id="drapery">
                           <div class="row">
                               <h4 class="info-text">Drop us a small description.</h4>
                               <div class="col-sm-6 col-sm-offset-1">

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EMC Tour Portal</title>
+    <title>Rose 'n' Roses || Portal</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ url ('css/bootstrap.min.css')}}" rel="stylesheet">
