@@ -66,7 +66,7 @@
                         <li><a href="#personal_details" data-toggle="tab">Customer Details</a></li>
                         <li><a href="#tents" data-toggle="tab">Tents, Chairs &amp; Tables</a></li>
                         <li><a href="#decor" data-toggle="tab">Floral Decor</a></li>
-                        <li><a href="#drapery" data-toggle="tab">Drapery &amp; Fittingd</a></li>
+                        <li><a href="#drapery" data-toggle="tab">Drapery & Fittings</a></li>
                     </ul>
   								</div>
 
@@ -75,7 +75,7 @@
                     	<div class="row">
 
                       	<div class="col-sm-12">
-                          	<h4 class="info-text"> Let's start with the your personal details.</h4>
+                          	<h4 class="info-text"> Let's start with your personal details.</h4>
                       	</div>
 
                         <div class="col-sm-6">
@@ -170,6 +170,7 @@
 																			<tr>
 																				<th>Description</th>
 																				<th>Quantity</th>
+																				<th>Type</th>
 																			</tr>
 																		</thead>
 																		<tbody>
@@ -179,6 +180,15 @@
 																				<td>
 																					<input type="number" name="tent100_quantity" value="">
 																				</td>
+																				<td>
+																					<select class="" name="tent100_type">
+																						<option></option>
+																						<option>Aladin Tent</option>
+																						<option>Hexagonal Tent</option>
+																						<option>High Peak Tent</option>
+																						<option>Clear Tent</option>
+																					</select>
+																				</td>
 																			</tr>
 
 																			<tr>
@@ -186,12 +196,35 @@
 																				<td>
 																					<input type="number" name="tent50_quantity" value="">
 																				</td>
+																				<td>
+																					<select class="" name="tent50_type">
+																						<option></option>
+																						<option>Aladin Tent</option>
+																						<option>Hexagonal Tent</option>
+																						<option>High Peak Tent</option>
+																						<option>Clear Tent</option>
+																					</select>
+																				</td>
 																			</tr>
 
 																			<tr>
-																				<td>Gazebo</td>
+																				<td>Gazebo(Cake Tent)</td>
 																				<td>
 																					<input type="number" name="gazebo_quantity" value="">
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td>Bridal Tent</td>
+																				<td>
+																					<input type="number" name="bridal_quantity" value="">
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td>Plastic Armless Chairs</td>
+																				<td>
+																					<input type="number" name="armless_quantity" value="">
 																				</td>
 																			</tr>
 
@@ -215,36 +248,191 @@
 
                       <div class="tab-pane" id="decor">
                           <div class="row">
-                              <h4 class="info-text">Drop us a small description.</h4>
-                              <div class="col-sm-6 col-sm-offset-1">
-                            		<div class="form-group">
-                                      <label>Room description</label>
-                                      <textarea class="form-control" placeholder="" rows="6"></textarea>
-                                  </div>
-                              </div>
-                              <div class="col-sm-4">
-                              	<div class="form-group">
-                                      <label class="control-label">Example</label>
-                                      <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
-                                  </div>
+                              <h4 class="info-text">Floral Decor/Arrangements</h4>
+                              <div class="col-md-12">
+																<div class="form-group label-floating">
+																	<div class="form-group">
+
+																		<table class="table table-striped table-bordered table-responsive">
+																			<thead>
+																				<tr>
+																					<th>Description</th>
+																					<th>Quantity</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+
+																				<tr>
+																					<td>Bridal Bouquet</td>
+																					<td>
+																						<select class="" name="bridal_bouquet">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Best Maid Corsage</td>
+																					<td>
+																						<select class="" name="maid_corsage">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Maids Bouquet</td>
+																					<td>
+																						<select class="" name="maid_bouquet">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Men Buotonniers</td>
+																					<td>
+																						<select class="" name="men_buttonnaires">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Bridal Car Bouquet</td>
+																					<td>
+																						<select class="" name="car_bouquet">
+																							<option></option>
+																							<option>V-shape</option>
+																							<option>Oval shape</option>
+																							<option>Swag(Diagonal)</option>
+																							<option>Swag(Long)</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Decorated Chairs</td>
+																					<td>
+																						<select class="" name="archs">
+																							<option></option>
+																							<option>Full</option>
+																							<option>With Ovals</option>
+																							<option>Pillar Stands</option>
+																							<option>half</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																			</tbody>
+																		</table>
+
+																</div>
+
+	                              </div>
                               </div>
                           </div>
                       </div>
 
 											<div class="tab-pane" id="drapery">
                           <div class="row">
-                              <h4 class="info-text">Drop us a small description.</h4>
-                              <div class="col-sm-6 col-sm-offset-1">
-                            		<div class="form-group">
-                                      <label>Room description</label>
-                                      <textarea class="form-control" placeholder="" rows="6"></textarea>
-                                  </div>
-                              </div>
-                              <div class="col-sm-4">
-                              	<div class="form-group">
-                                      <label class="control-label">Example</label>
-                                      <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
-                                  </div>
+                              <h4 class="info-text">More Information on drapery and fittings, and we are done</h4>
+                              <div class="col-md-12">
+
+																<div class="form-group label-floating">
+																	<div class="form-group">
+
+																		<table class="table table-striped table-bordered table-responsive">
+																			<thead>
+																				<tr>
+																					<th>Description</th>
+																					<th>Quantity</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+
+																				<tr>
+																					<td>Gift Table Dressing</td>
+																					<td>
+																						<select class="" name="gift_table_drapery">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Gift Tent Drapery</td>
+																					<td>
+																						<select class="" name="gift_tent_drapery">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Cake Table Drapery</td>
+																					<td>
+																						<select class="" name="cake_table_drapery">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>High Table Drapery</td>
+																					<td>
+																						<select class="" name="high_table_drapery">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Carpet</td>
+																					<td>
+																						<select class="" name="carpet">
+																							<option></option>
+																							<option>red(Canvas)</option>
+																							<option>Red(Velvet)</option>
+																							<option>White</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																				<tr>
+																					<td>Public Address</td>
+																					<td>
+																						<select class="" name="public_address">
+																							<option></option>
+																							<option>Yes</option>
+																							<option>No</option>
+																						</select>
+																					</td>
+																				</tr>
+
+																			</tbody>
+																		</table>
+
+																</div>
+
+	                              </div>
+
                               </div>
                           </div>
                       </div>
@@ -254,7 +442,7 @@
                       <div class="wizard-footer">
                     	  <div class="pull-right">
                             <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
-                            <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                            <input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
                         </div>
                         <div class="pull-left">
                             <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
