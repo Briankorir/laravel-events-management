@@ -54,7 +54,7 @@
                 <div class="card wizard-card" data-color="red" id="wizard">
 		              <form action="/book/event" method="POST">
 		                <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
-
+										{{csrf_field()}}
                 	<div class="wizard-header">
                     	<h3 class="wizard-title">
                     		Book Event
@@ -298,7 +298,7 @@
 																				<tr>
 																					<td>Men Buotonniers</td>
 																					<td>
-																						<select class="" name="men_buttonnaires">
+																						<select class="" name="men_buttonnaire">
 																							<option></option>
 																							<option>Yes</option>
 																							<option>No</option>
