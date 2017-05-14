@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Material Bootstrap Wizard by Creative Tim</title>
+	<title>Rose 'n' Roses || Sys</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -177,28 +177,28 @@
 																			<tr>
 																				<td>100 seater Tent</td>
 																				<td>
-																					<input type="text" name="tent100_quantity" value="">
+																					<input type="number" name="tent100_quantity" value="">
 																				</td>
 																			</tr>
 
 																			<tr>
 																				<td>50 seater Tent</td>
 																				<td>
-																					<input type="text" name="tent50_quantity" value="">
+																					<input type="number" name="tent50_quantity" value="">
 																				</td>
 																			</tr>
 
 																			<tr>
 																				<td>Gazebo</td>
 																				<td>
-																					<input type="text" name="gazebo_quantity" value="">
+																					<input type="number" name="gazebo_quantity" value="">
 																				</td>
 																			</tr>
 
 																			<tr>
 																				<td>Decorated Chairs</td>
 																				<td>
-																					<input type="text" name="decorated_chairs" value="">
+																					<input type="number" name="decorated_chairs" value="">
 																				</td>
 																			</tr>
 
