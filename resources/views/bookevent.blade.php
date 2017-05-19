@@ -34,7 +34,7 @@
 	                <img src="{{ asset ('assets/img/imondcorp.png')}}">
 	            </div>
 	            <div class="brand">
-	                Rose n Roses
+	                Events
 	            </div>
 	        </div>
 	    </a>

@@ -1,12 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+<h1 class="imondwhite">Register</h1>
 
   <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
       {{ csrf_field() }}
 
       <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-          <label for="name" class="col-md-4 control-label">Name</label>
+          <label for="name" class="col-md-4 imondwhite control-label">Name</label>
 
           <div class="col-md-6">
               <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
@@ -20,7 +21,7 @@
       </div>
 
       <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-          <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+          <label for="email" class="col-md-4 imondwhite control-label">E-Mail Address</label>
 
           <div class="col-md-6">
               <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
@@ -34,7 +35,7 @@
       </div>
 
       <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-          <label for="password" class="col-md-4 control-label">Password</label>
+          <label for="password" class="col-md-4 imondwhite control-label">Password</label>
 
           <div class="col-md-6">
               <input id="password" type="password" class="form-control" name="password" required>
@@ -48,7 +49,7 @@
       </div>
 
       <div class="form-group">
-          <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+          <label for="password-confirm" class="col-md-4 imondwhite control-label">Confirm Password</label>
 
           <div class="col-md-6">
               <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
